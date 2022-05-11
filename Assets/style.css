@@ -63,6 +63,7 @@ html {
     background-size: cover;
     background-position: center;
 }
+/* bio section */
 
 .main{
     width: 100%;
@@ -79,28 +80,28 @@ html {
     color: whitesmoke;
     padding: 50px;
 }
-
+/* image in Bio*/
 .block img {
     max-height: 200px;
 
 }
-
+/* text in Bio */
 .block div{
     padding: 0 20px 0;
 }
-
+/* bio alignment */
 #about {
     text-align:center;
     padding: 20px 0;
 }
-
+/*  job section*/
 .job {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-
+/*  each job card (firefighter,teacher,coder*/
 .job-cards {
     margin: 10px 0;
     padding: 5px;
@@ -110,7 +111,7 @@ html {
     border-radius: 20px;
 
 }
-
+/* contact info*/
 .info {
     width: 100%;
     display:flex;
@@ -123,6 +124,9 @@ html {
     padding: 20px 0;
 }
 
-#work{
+@media screen and (max-width: 768px) {
 
+    html {
+        flex-direction: column;
+    }
 }
